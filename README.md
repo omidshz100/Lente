@@ -1,117 +1,117 @@
-# 🔍 Lente - AI-Powered Semantic Candidate Search
+# 🔍 Lente - Ricerca Semantica Candidati Basata su AI
 
-**Revolutionizing hiring for Credit Agricole Italy through intelligent semantic understanding**
+**Rivoluzionando le assunzioni per Crédit Agricole Italia attraverso la comprensione semantica intelligente**
 
 ![Lente Logo](https://via.placeholder.com/300x100/00B050/FFFFFF?text=LENTE)
 
-## 🌟 Overview
+## 🌟 Panoramica
 
-Lente is an innovative AI-powered candidate search platform developed specifically for Credit Agricole Italy. Unlike traditional hiring systems that rely on exact keyword matching, Lente uses advanced semantic understanding to find qualified candidates regardless of how they describe their skills.
+Lente è una piattaforma innovativa di ricerca candidati basata su AI sviluppata specificamente per Crédit Agricole Italia. A differenza dei sistemi di assunzione tradizionali che si basano sulla corrispondenza esatta di parole chiave, Lente utilizza una comprensione semantica avanzata per trovare candidati qualificati indipendentemente da come descrivono le loro competenze.
 
-## 🚀 The Problem We Solve
+## 🚀 Il Problema che Risolviamo
 
-- **67% of qualified candidates** are missed by traditional keyword-only systems
-- **Talented professionals** with poor resume optimization become invisible
-- **Skills-based hiring** is hindered by exact word matching requirements
-- **HR teams** waste countless hours manually screening irrelevant profiles
+- **Il 67% dei candidati qualificati** viene perso dai sistemi tradizionali basati solo su parole chiave
+- **Professionisti di talento** con scarsa ottimizzazione del CV diventano invisibili
+- **Le assunzioni basate sulle competenze** sono ostacolate dai requisiti di corrispondenza esatta delle parole
+- **I team HR** sprecano innumerevoli ore setacciando manualmente profili irrilevanti
 
-## 💡 Our Solution
+## 💡 La Nostra Soluzione
 
-Lente reads every candidate profile like an experienced human recruiter would, understanding context and meaning beyond exact keywords.
+Lente legge ogni profilo candidato come farebbe un recruiter umano esperto, comprendendo il contesto e il significato oltre le parole chiave esatte.
 
-### Real Example:
-- **Traditional Search**: "iOS developer" → No results
-- **Candidate Profile**: "Expert in modern Apple UI frameworks"
-- **Lente Result**: 89% match with clear explanation
+### Esempio Reale:
+- **Ricerca Tradizionale**: "sviluppatore iOS" → Nessun risultato
+- **Profilo Candidato**: "Esperto in framework UI Apple moderni"
+- **Risultato Lente**: 89% di corrispondenza con spiegazione chiara
 
-## ✨ Key Features
+## ✨ Caratteristiche Principali
 
-### 🧠 Semantic Understanding
-- Converts "Apple ecosystem development" → iOS expertise
-- Recognizes "cross-functional teamwork" from project descriptions
-- Maps related technologies and frameworks automatically
+### 🧠 Comprensione Semantica
+- Converte "sviluppo ecosistema Apple" → competenza iOS
+- Riconosce "lavoro di squadra interfunzionale" dalle descrizioni dei progetti
+- Mappa automaticamente tecnologie e framework correlati
 
-### 🌍 Multilingual Support
-- **English and Italian** interface
-- Natural language queries in both languages
-- Banking terminology recognition
+### 🌍 Supporto Multilingue
+- Interfaccia in **inglese e italiano**
+- Query in linguaggio naturale in entrambe le lingue
+- Riconoscimento della terminologia bancaria
 
-### 📍 Intelligent Location Matching
-- Understands "Milan area", "Lombardy region", "Northern Italy"
-- No complex geographic databases needed
-- Context-aware proximity assessment
+### 📍 Corrispondenza Intelligente della Posizione
+- Comprende "area Milano", "regione Lombardia", "Nord Italia"
+- Non necessita di database geografici complessi
+- Valutazione della prossimità consapevole del contesto
 
-### 🏦 Banking Industry Focus
-- Credit Agricole Italy branding and terminology
-- Fintech and banking experience recognition
-- Regulatory compliance skill detection
+### 🏦 Focus sull'Industria Bancaria
+- Branding e terminologia di Crédit Agricole Italia
+- Riconoscimento dell'esperienza fintech e bancaria
+- Rilevamento delle competenze di conformità normativa
 
-### 📊 Explainable AI
-- Clear match score percentages
-- Transparent reasoning for every result
-- Highlighted relevant profile sections
+### 📊 AI Spiegabile
+- Percentuali di corrispondenza chiare
+- Ragionamento trasparente per ogni risultato
+- Sezioni del profilo rilevanti evidenziate
 
-## 🛠️ Technology Stack
+## 🛠️ Stack Tecnologico
 
 ### Frontend
-- **React 18** with TypeScript for modern development
-- **Vite** for lightning-fast development experience
-- **TailwindCSS** for professional UI components
-- **Lucide React** for beautiful iconography
+- **React 18** con TypeScript per sviluppo moderno
+- **Vite** per un'esperienza di sviluppo velocissima
+- **TailwindCSS** per componenti UI professionali
+- **Lucide React** per iconografia elegante
 
-### AI/ML Components
-- **Semantic text processing** for meaning extraction
-- **Natural language understanding** for query parsing
-- **Skills inference engine** for context recognition
-- **Multi-dimensional scoring** algorithm
+### Componenti AI/ML
+- **Elaborazione semantica del testo** per estrazione del significato
+- **Comprensione del linguaggio naturale** per analisi delle query
+- **Motore di inferenza delle competenze** per riconoscimento del contesto
+- **Algoritmo di punteggio** multidimensionale
 
-### Backend Architecture
-- **Supabase** for scalable backend infrastructure
-- **PostgreSQL** with Row Level Security
-- **RESTful API** design
-- **Vector similarity search** for fast matching
+### Architettura Backend
+- **Supabase** per infrastruttura backend scalabile
+- **PostgreSQL** con Row Level Security
+- **Design API RESTful**
+- **Ricerca per similarità vettoriale** per corrispondenze veloci
 
-## 🚀 Quick Start
+## 🚀 Avvio Rapido
 
-### Prerequisites
+### Prerequisiti
 - Node.js 18+ 
-- npm or yarn
-- Supabase account
-- Modern web browser
+- npm o yarn
+- Account Supabase
+- Browser web moderno
 
-### Installation
+### Installazione
 
 ```bash
-# Clone the repository
+# Clona il repository
 git clone https://github.com/omidshz100/lente.git
 
-# Navigate to project directory
+# Naviga nella directory del progetto
 cd project
 
-# Install dependencies
+# Installa le dipendenze
 npm install
 
-# Configure environment
+# Configura l'ambiente
 cp .env.example .env.local
-# Edit .env.local with your Supabase credentials
+# Modifica .env.local con le tue credenziali Supabase
 
-# Start development server
+# Avvia il server di sviluppo
 npm run dev
 ```
 
-Visit `http://localhost:5173` to see Lente in action.
+Visita `http://localhost:5173` per vedere Lente in azione.
 
-## 🔧 Environment Setup
+## 🔧 Configurazione Ambiente
 
-Create a `.env.local` file:
+Crea un file `.env.local`:
 ```env
-VITE_SUPABASE_URL=your_supabase_project_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+VITE_SUPABASE_URL=url_del_tuo_progetto_supabase
+VITE_SUPABASE_ANON_KEY=chiave_anonima_supabase
 ```
 
-## 📊 Database Schema
+## 📊 Schema Database
 
-The candidates table structure:
+Struttura della tabella candidati:
 ```sql
 CREATE TABLE candidates (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
@@ -124,108 +124,108 @@ CREATE TABLE candidates (
 );
 ```
 
-## 🔍 Semantic Matching Algorithm
+## 🔍 Algoritmo di Corrispondenza Semantica
 
-### Intelligent Synonym Recognition
-- **iOS Development**: Swift, SwiftUI, UIKit, Apple frameworks, Objective-C
-- **Mobile Development**: React Native, Flutter, Cross-platform, Native apps
-- **Team Skills**: Collaboration, Agile, Cross-functional, Leadership, Mentoring
+### Riconoscimento Intelligente dei Sinonimi
+- **Sviluppo iOS**: Swift, SwiftUI, UIKit, framework Apple, Objective-C
+- **Sviluppo Mobile**: React Native, Flutter, Cross-platform, App native
+- **Competenze di Team**: Collaborazione, Agile, Interfunzionale, Leadership, Mentoring
 
-### Location Intelligence
-- **Geographic Understanding**: "Milan" → Milano, Lombardy, Northern Italy
-- **Regional Matching**: Understands city clusters and metropolitan areas
-- **Flexible Proximity**: Smart distance calculations
+### Intelligenza della Posizione
+- **Comprensione Geografica**: "Milano" → Milano, Lombardia, Nord Italia
+- **Corrispondenza Regionale**: Comprende cluster di città e aree metropolitane
+- **Prossimità Flessibile**: Calcoli intelligenti della distanza
 
-### Scoring Algorithm
-1. **Direct Skill Matches** (0-50 points)
-2. **Semantic Context** (0-30 points) 
-3. **Location Relevance** (0-15 points)
-4. **Experience Level** (0-5 points)
+### Algoritmo di Punteggio
+1. **Corrispondenze Dirette delle Competenze** (0-50 punti)
+2. **Contesto Semantico** (0-30 punti) 
+3. **Rilevanza della Posizione** (0-15 punti)
+4. **Livello di Esperienza** (0-5 punti)
 
-## 📱 Available Commands
+## 📱 Comandi Disponibili
 
 ```bash
-# Development
-npm run dev          # Start development server
-npm run build        # Build for production
-npm run preview      # Preview production build
+# Sviluppo
+npm run dev          # Avvia il server di sviluppo
+npm run build        # Build per produzione
+npm run preview      # Anteprima build di produzione
 
-# Code Quality
-npm run lint         # Run ESLint
-npm run typecheck    # TypeScript checking
+# Qualità del Codice
+npm run lint         # Esegui ESLint
+npm run typecheck    # Controllo TypeScript
 ```
 
-## 🌍 Internationalization Features
+## 🌍 Funzionalità di Internazionalizzazione
 
-### Supported Languages
-- 🇬🇧 **English** - Primary interface language
-- 🇮🇹 **Italian** - Complete localization for Italian market
+### Lingue Supportate
+- 🇬🇧 **Inglese** - Lingua principale dell'interfaccia
+- 🇮🇹 **Italiano** - Localizzazione completa per il mercato italiano
 
-### Localized Examples
-- **English**: "iOS developer near Milan with teamwork experience"
-- **Italian**: "sviluppatore iOS vicino Milano con esperienza di team"
+### Esempi Localizzati
+- **Inglese**: "iOS developer near Milan with teamwork experience"
+- **Italiano**: "sviluppatore iOS vicino Milano con esperienza di team"
 
-## 🎨 UI/UX Excellence
+## 🎨 Eccellenza UI/UX
 
-### Modern Design Philosophy
-- **Credit Agricole Italy** branding integration
-- **Professional green** color scheme
-- **Responsive layouts** for all devices
-- **Accessibility compliance** (WCAG 2.1)
+### Filosofia di Design Moderno
+- Integrazione del branding **Crédit Agricole Italia**
+- Schema colori **verde professionale**
+- **Layout responsive** per tutti i dispositivi
+- **Conformità all'accessibilità** (WCAG 2.1)
 
-### Interactive Features
-- **Real-time search** with debounced input
-- **Match explanations** with highlighted keywords
-- **Loading animations** for better UX
-- **Empty states** with helpful guidance
+### Funzionalità Interattive
+- **Ricerca in tempo reale** con input debounced
+- **Spiegazioni delle corrispondenze** con parole chiave evidenziate
+- **Animazioni di caricamento** per migliore UX
+- **Stati vuoti** con guida utile
 
-## 🔒 Security & Compliance
+## 🔒 Sicurezza e Conformità
 
-- **Row Level Security** on all database operations
-- **Environment variable** protection for sensitive data
-- **Type-safe API calls** with proper error handling
-- **Banking-grade security** considerations
+- **Row Level Security** su tutte le operazioni del database
+- Protezione **variabili d'ambiente** per dati sensibili
+- **Chiamate API type-safe** con gestione errori appropriata
+- Considerazioni di **sicurezza di livello bancario**
 
-## 🚀 Deployment Guide
+## 🚀 Guida al Deployment
 
-### Production Build
+### Build di Produzione
 ```bash
 npm run build
 ```
 
-### Deployment Options
-- **Vercel**: Optimal for React/Vite applications
-- **Netlify**: Simple deployment with form handling
-- **Supabase Edge Functions**: Integrated backend deployment
-- **Docker**: Containerized deployment ready
+### Opzioni di Deployment
+- **Vercel**: Ottimale per applicazioni React/Vite
+- **Netlify**: Deployment semplice con gestione form
+- **Supabase Edge Functions**: Deployment backend integrato
+- **Docker**: Pronto per deployment containerizzato
 
-## 📈 Performance Metrics
+## 📈 Metriche delle Prestazioni
 
-- **< 2s** average search response time
-- **95%+ accuracy** in semantic matching
-- **Mobile-first** responsive design
-- **Progressive Web App** capabilities
+- **< 2s** tempo medio di risposta della ricerca
+- **95%+ accuratezza** nella corrispondenza semantica
+- Design **mobile-first** responsive
+- Capacità **Progressive Web App**
 
-## 🤝 Contributing
+## 🤝 Contribuire
 
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/enhancement`)
-3. Commit changes (`git commit -m 'Add semantic enhancement'`)
-4. Push to branch (`git push origin feature/enhancement`)
-5. Open Pull Request
+1. Fork del repository
+2. Crea branch feature (`git checkout -b feature/enhancement`)
+3. Commit delle modifiche (`git commit -m 'Aggiungi miglioramento semantico'`)
+4. Push al branch (`git push origin feature/enhancement`)
+5. Apri Pull Request
 
-## 📄 License
+## 📄 Licenza
 
-This project is proprietary to Credit Agricole Italy. All rights reserved.
+Questo progetto è proprietario di Crédit Agricole Italia. Tutti i diritti riservati.
 
-## 🆘 Support & Contact
+## 🆘 Supporto e Contatti
 
-For technical support or questions:
+Per supporto tecnico o domande:
 - **Email**: development-team@credit-agricole.it
-- **Internal Docs**: Confluence knowledge base
-- **Issue Tracking**: GitHub Issues
+- **Documentazione Interna**: Base di conoscenza Confluence
+- **Tracciamento Problemi**: GitHub Issues
 
 ---
 
-**🏦 Built with innovation for Credit Agricole Italy**
-*Transforming talent acquisition through AI-powered semantic understanding*
+**🏦 Costruito con innovazione per Crédit Agricole Italia**
+*Trasformando l'acquisizione di talenti attraverso la comprensione semantica basata su AI*
